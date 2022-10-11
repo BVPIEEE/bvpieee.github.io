@@ -1,6 +1,12 @@
 (function ($) {
     "use strict";
     
+     // Contact us link -- scroll to footer
+    
+     document.querySelector(".contact").addEventListener("click", function(e){
+        document.querySelector("#footer").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    })
+    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {

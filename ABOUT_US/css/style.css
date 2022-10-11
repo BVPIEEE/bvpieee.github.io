@@ -464,15 +464,16 @@ h6, .h6 {
 }
 
 .display-5{
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .display-6{
-  font-size: 1.5rem;
+  color:rgb(141, 140, 140);
+  padding-top: 0.5rem;
+  font-size: 1.4rem;
   font-weight: 300;
-  line-height: 1.2;
 }
 
 hr {

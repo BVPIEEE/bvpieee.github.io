@@ -254,6 +254,9 @@ select {
 select {
   word-wrap: normal;
 }
+.contact{
+  cursor: pointer;
+}
 
 button,
 [type="button"],

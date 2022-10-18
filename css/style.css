@@ -62,6 +62,9 @@ body {
   outline: 0 !important;
 }
 
+.contact{
+  cursor: pointer;
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -294,6 +297,8 @@ fieldset {
   margin: 0;
   border: 0;
 }
+
+
 
 legend {
   display: block;

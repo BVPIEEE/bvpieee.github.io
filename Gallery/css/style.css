@@ -9888,3 +9888,13 @@ img:hover {
   margin: 10px 15px;
   display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+  .webimage {
+    margin: 10px 8px;
+  }
+
+  .center1{
+    margin: 0px
+  }
+}

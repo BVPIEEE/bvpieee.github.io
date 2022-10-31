@@ -9879,8 +9879,21 @@ body{
   line-height: 1.8;
 }
 
-.horizontal_img{
-  margin: 30px 200px;
-  padding: 2px;
-  border: solid black 1px;
+
+.horizontal_img {
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .horizontal_img {
+    /* margin: 30px 200px; */
+    padding: 2px;
+    border: solid black 1px;
+    width: 800px;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
 }

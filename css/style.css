@@ -9839,6 +9839,14 @@ h6,
   transition: .5s;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
+.service-item p {
+  color: black;
+}
+
 .service-item:hover i {
   background: #2878eb;
   color: #FFFFFF;

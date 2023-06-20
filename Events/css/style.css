@@ -633,6 +633,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -823,7 +824,9 @@ pre code {
 }
 
 .offset-1 {
-  margin-left: 8.33333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .offset-2 {
@@ -9892,8 +9895,7 @@ body{
     border: solid black 1px;
     width: 800px;
     height: 400px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0px;
   }
 
 }
